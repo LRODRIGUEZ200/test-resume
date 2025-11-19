@@ -1,0 +1,55 @@
+/* style.css */
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;background-image: url("paper.gif");
+
+.grid-container {
+display: grid;
+grid-template-columns: 100px 200px auto;
+grid-template-rows: 80px auto;
+ 
+
+}
+
+resume {
+max-width: 800px;
+margin: 20px auto;
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+text-align: left
+}
+
+header h1 {
+margin-bottom: 5px;
+}
+
+header p {
+color: #555;
+}
+
+section {
+margin-bottom: 20px;
+}
+
+section h2 {
+color: #333;
+border-bottom: 2px solid #0bb5f4;
+display: inline-block;
+}
+
+skills ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+skills li {
+margin-bottom: 5px;
+}
