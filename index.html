@@ -1,29 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><style>
-body {
-  background-image: url("paper.gif");
-}
-</style><link rel="stylesheet" href="style.css"></head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Leticia Rodriguez - Resume</title> <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file --> </head> <body>
-<!-- Resume content will go here -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-auto-rows: minmax(100px, auto);
+        gap: 20px;
+        background-color: #f2f2f2;
+        padding: 30px;
+        background: #f4f4f9;
+        background-image: url("paper.gif");
+    }
+
+    .box {
+        background-color: #4CAF50;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .box1 {
+        width: 100px;
+        /* Set desired width */
+        height: 100px;
+        /* Set desired height */
+        background-image: url('path/to/your/image.jpg');
+        /* Specify image path */
+        background-repeat: no-repeat;
+        /* Prevent image from repeating */
+        background-size: cover;
+        /* or 'contain', or '100% 100%' for different scaling */
+        background-position: center;
+        /* Center the image within the box 
+        grid-row-start: 1;
+        grid-row-end: 1;
+        /* text-align: center; */
+    }
+</style>
+
 <body>
-    <header>
-        <h1>Rox Goofy
-        </h1>
-        <p1>WIFE</p1>
-        <h2>ABOUT
-        </h2>
-        <p2>Hello, I am a wife to Mr. Goofy</p2>
-        <h3>EDUCATION
-        </h3>
-        <p3>* High School Diploma;
-            * college courses in business administration
-        
-        
-        </p3><h3>WORK EXPERIENCE
-        </h3>
-        <p4>Family Business; </p4>
-        </body>
-        </html>
+
+    <div class="container">
+        <div class="box "><img src="path/to/your/image.jpg" /></div>
+
+        <div class="box "> 
+            <section class=" summary">
+                <h2>Summary</h2>
+                <p>Experienced web developer skilled in HTML, CSS, and JavaScript with a passion for creating
+                    user-friendly
+                    websites.</p>
+            </section>
+           
+        </div>
+        <div class="box">
+            <h2>PROFILE</h2>
+
+            <ul>
+                <li>(415) 555-1212</li>
+                <li>Roxs@noemail.com</li>
+                <li>7000 E. Nowhere St, Lostland NV 00012</li>
+            </ul>
+        </div>
+        <div class="box"> 
+             <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML - 90%</li>
+                    <li>CSS - 85%</li>
+                    <li>JavaScript - 80%</li>
+                </ul>
+            </section>
+            <section class="experience">
+                <h2>Work Experience</h2>
+                <p><strong>Frontend Developer</strong>, ABC Corp (2020–Present)</p>
+                <ul>
+                    <li>Developed responsive websites using modern frameworks.</li>
+                    <li>Collaborated with designers to improve UI/UX.</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <p><strong>Bachelor's in Computer Science</strong>, XYZ University (2016–2020)</p>
+            </section>
+            LANGUAGES
+             <ul>
+                <li>Spanish </li>
+                <li>French</li>
+
+                </ul>
+        </div>
+</body>
